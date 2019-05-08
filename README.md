@@ -33,23 +33,28 @@ My ViewInject
 ```
 
 
+
+Download
+--------
 ### How to
 Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 
-```
+```groovy
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 Step 2. Add the dependency
 
+```groovy
+implementation 'com.github.aJanefish:viewinject:Tag'
 ```
-dependencies {
-	        implementation 'com.github.aJanefish:viewinject:Tag'
-	}
-```
+
+
+
+
