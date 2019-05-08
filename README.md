@@ -31,3 +31,25 @@ My ViewInject
     @ViewField(getId = R.id.activity_retrofit_title)
     TextView title;
 ```
+
+
+### How to
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Step 2. Add the dependency
+
+```
+dependencies {
+	        implementation 'com.github.aJanefish:viewinject:Tag'
+	}
+```
